@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+}
+.ai {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.ai img {
+  height: 250px;
+  width: 265px;
+}
+.ai h1 {
+  color: silver;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.ai h1 span {
+  color: #EEE3AA;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+#button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#button button {
+  width: 353px;
+  height: 50px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #FFEDD4;
+  border: 2px solid #FAFFE9;
+  transition: .3s;
+  font-size: 20px;
+}
+#button button:hover {
+  background-color: silver;
+}
+
+
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("af7b6ee82ae6de2df640d6d40c8fe8a4.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+.login h2 {
+  text-align: center;
+  color: #EEE3AA;
+  font-family: cursive;
+  font-size: 30px;
+}
+.login input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 25px;
+  background-color: transparent;
+  color: #EEE3AA;
+  inline: inset; 
+}
+.login a {
+  text-decoration:  none;
+  color: #EEE3AA;
+  margin-top: 20px;
+}
+.login a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+.login button {
+  height: 50px;
+  width: 300px;
+  background-color: #420000;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.login a button {
+  color: #EEE3AA;
+}
+::placeholder {
+  color: #FFFFE7;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+#message {
+  color: #fff;
+}

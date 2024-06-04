@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+}
+.heading h1 {
+  font-family: serif;
+  font-size:30px;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 3px;
+  color: #FFEDD4;
+}
+.heading h1 span {
+  font-size: 20px;
+  color: silver;
+}
+.heading p {
+  color: #EEE3AA;
+  opacity: .6;
+  margin: 10.5px;
+  padding: 3px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.input input{
+  width: 300px;
+  height: 50px;
+  margin: 10.5px;
+  padding: 3px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #FFEDD4;
+  border: 1px solid #FFEDD4;
+}
+.input button {
+  height: 40px;
+  width: 80px;
+  margin: 10.5px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #FFEDD4;
+}
+::placeholder {
+  color: #FFEDD4;
+}
+#para {
+  display: none;
+}
